@@ -20,13 +20,13 @@ class HomePage extends StatelessWidget {
         width: 200,
         margin: EdgeInsets.fromLTRB(30, 20, 0, 0),
         decoration: BoxDecoration(
-          color:Colors.blue,
+          color:Colors.pinkAccent,
           shape: BoxShape.rectangle,
           borderRadius: BorderRadius.circular(20), //curve the corner
           boxShadow: [
             BoxShadow(
               color: Colors.black12.withOpacity(.7),
-              blurRadius: 15,
+              blurRadius: 25,
               spreadRadius: 5
             )
           ]
